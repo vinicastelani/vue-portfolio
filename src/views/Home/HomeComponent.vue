@@ -2,17 +2,17 @@
   <v-row>
     <v-col cols="12" class="grid">
       <p
-        class="text-xl-h1 text-lg-h1 text-md-h1 text-sm-h1 text-h2 my-0 animate"
+        class="text-xl-h1 text-lg-h1 text-md-h1 text-sm-h1 text-h2 my-10 animate"
       >
         {{ textOutput.greeting }}
       </p>
       <p
-        class="text-xl-h1 text-lg-h1 text-md-h1 text-sm-h1 text-h2 my-0 font-weight-bold"
+        class="text-xl-h1 text-lg-h1 text-md-h1 text-sm-h1 text-h2 my-10 font-weight-bold"
       >
         I'm Vini,
       </p>
       <p
-        class="text-xl-h1 text-lg-h1 text-md-h1 text-sm-h1 text-h2 my-0 animate"
+        class="text-xl-h1 text-lg-h1 text-md-h1 text-sm-h1 text-h2 my-10 animate"
       >
         {{ textOutput.speech }}
       </p>
@@ -45,14 +45,12 @@
         <v-col cols="12" xl="8" lg="8" md="12" sm="12">
           <v-card variant="outlined" color="transparent" elevation="24" tile>
             <v-card-title>
-              <p class="my-">
+              <p class="my-1">
                 {{ text.home.lineFour[storedLanguage] }}
               </p>
             </v-card-title>
             <v-card-text>
-              <p class="my-">
-                {{ text.home.lineFive[storedLanguage] }}
-              </p>
+              <p class="my-1">{{ text.home.lineFive[storedLanguage] }} lorem</p>
             </v-card-text>
           </v-card>
         </v-col>
@@ -62,7 +60,7 @@
         <v-col cols="12" xl="8" lg="8" md="12" sm="12">
           <v-card variant="outlined" color="transparent" elevation="24" tile>
             <v-card-text>
-              <p class="my-">
+              <p class="my-1">
                 {{ text.home.lineSix[storedLanguage] }}
               </p>
             </v-card-text>
@@ -74,7 +72,7 @@
         <v-col cols="12" xl="8" lg="8" md="12" sm="12">
           <v-card variant="outlined" color="transparent" elevation="24" tile>
             <v-card-text>
-              <p class="my-">
+              <p class="my-1">
                 {{ text.home.lineSeven[storedLanguage] }}
               </p>
             </v-card-text>
@@ -83,7 +81,7 @@
       </v-row>
     </v-col>
     <v-col cols="12" class="" style="min-height: 244px">
-      <v-divider color="#FFF"></v-divider>
+      <v-spacer></v-spacer>
     </v-col>
     <v-col cols="12" class="d-flex justify-center align-center flex-column">
       <p>

@@ -12,13 +12,17 @@
           <template v-slot:opposite>
             <p class="headline font-weight-bold my-0" v-text="year.year"></p>
           </template>
-          <div class="py-4">
-            <div>
-              <p class="text-caption my-0">
-                {{ year[storedLanguage] }}
-              </p>
-            </div>
-          </div>
+          <v-card
+            variant="outlined"
+            color="transparent"
+            elevation="24"
+            tile
+            class="px-4 py-4"
+          >
+            <p class="text-caption my-0">
+              {{ year[storedLanguage] }}
+            </p>
+          </v-card>
         </v-timeline-item>
       </v-timeline>
     </v-col>
@@ -52,4 +56,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+.theme--light.v-timeline:before {
+  background: rgb(255, 255, 255);
+}
+</style>

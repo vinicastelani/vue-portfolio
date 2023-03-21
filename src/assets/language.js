@@ -65,7 +65,7 @@ export default {
     stepFour: {
       "pt-br": "Conclusão da minha graduação durante a pândemia.",
       "en-us": "Finished my graduation during the pandemic.",
-      year: "30/06/2020",
+      year: "18/07/2020",
     },
     stepFive: {
       "pt-br":
@@ -76,9 +76,9 @@ export default {
     },
     stepSix: {
       "pt-br":
-        "Depois de dois anos trabalhando para o departamento de Marketing da IBM, eu saí para começar um novo desafio. Durante esse tempo eu aprendi um pouco sobre React, mas comecei mesmo a me aprimorar com Vue.",
+        "Início na Elumini. Na minha função atual, sou responsável por adicionar novas features na aplicação do cliente, optimizando o que já temos e sugerindo sobre o que e onde podemos melhorar.",
       "en-us":
-        "Joined Elumini.",
+        "Joined Elumini. On my current role, i'm responsible for adding new features on our client application, optimizing what we already have and suggesting about what and where we can improve.",
       year: "03/11/2020",
     },
   },
