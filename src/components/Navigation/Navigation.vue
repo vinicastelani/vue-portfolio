@@ -1,6 +1,6 @@
 <template>
   <v-row>
-    <v-col cols="12" class="d-flex justify-center px-0">
+    <v-col cols="12" class="d-flex justify-center px-0 mt-4">
       <ul class="d-flex align-center">
         <li v-for="(item, index) in navigationList" :key="index" class="px-2">
           <router-link :to="item.url">

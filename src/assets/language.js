@@ -42,4 +42,44 @@ export default {
       "en-us": "Get in touch with me through those links",
     },
   },
+  roadMap: {
+    stepOne: {
+      "pt-br": "Iníciei meus estudos na Universidade Presbiteriana Mackenzie.",
+      "en-us": "Started my studies at Universidade Presbiteriana Mackenzie.",
+      year: "10/02/2018",
+    },
+    stepTwo: {
+      "pt-br":
+        "Entrei na IBM. Onde comecei a trabalhar com páginas web, usando HTML5, CSS3 e Javascript para desenvolver Landing pages e Email Marketing.",
+      "en-us":
+        "Joined IBM. Where I started to work with web pages, using HTML5, CSS3 and Javascript to develop Landing Pages and Email Marketing.",
+      year: "22/10/2018",
+    },
+    stepThree: {
+      "pt-br":
+        "Entrega do projeto para conclusão de curso: Openbook, uma rede social para pesquisadores. Feita com Node.js, Express e MongoDB no Back-end, Vue, Vuex e Vuetify para o Front-end.",
+      "en-us":
+        "Delivery of my last class Project: Openbook, a social network for researchers. Made with Node.js, Express and MongoDB on the Back-end, Vue, Vuex and Vuetify for the Front-end.",
+      year: "31/05/2020",
+    },
+    stepFour: {
+      "pt-br": "Conclusão da minha graduação durante a pândemia.",
+      "en-us": "Finished my graduation during the pandemic.",
+      year: "30/06/2020",
+    },
+    stepFive: {
+      "pt-br":
+        "Depois de dois anos trabalhando para o departamento de Marketing da IBM, eu saí para começar um novo desafio. Durante esse tempo eu aprendi um pouco sobre React, mas comecei mesmo a me aprimorar com Vue.",
+      "en-us":
+        "After two years of working on the Marketing squad for IBM, I left to start a new challenge. During this time I learned a bit about React, but really started to improve with Vue.",
+      year: "30/10/2020",
+    },
+    stepSix: {
+      "pt-br":
+        "Depois de dois anos trabalhando para o departamento de Marketing da IBM, eu saí para começar um novo desafio. Durante esse tempo eu aprendi um pouco sobre React, mas comecei mesmo a me aprimorar com Vue.",
+      "en-us":
+        "Joined Elumini.",
+      year: "03/11/2020",
+    },
+  },
 };

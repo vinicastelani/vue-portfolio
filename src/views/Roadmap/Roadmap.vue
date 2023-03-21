@@ -1,15 +1,54 @@
 <template>
   <v-row>
     <v-col cols="12" class="d-flex flex-column align-center">
-      <v-icon x-large color="warning"> mdi-wrench </v-icon>
-      <p>Currently in development.</p>
+      <v-timeline class="my-12">
+        <v-timeline-item
+          v-for="(year, i) in text.roadMap"
+          :key="i"
+          :color="'#FFF'"
+          small
+          fill-dot
+        >
+          <template v-slot:opposite>
+            <p class="headline font-weight-bold my-0" v-text="year.year"></p>
+          </template>
+          <div class="py-4">
+            <div>
+              <p class="text-caption my-0">
+                {{ year[storedLanguage] }}
+              </p>
+            </div>
+          </div>
+        </v-timeline-item>
+      </v-timeline>
     </v-col>
   </v-row>
 </template>
 
 <script>
+import { mapGetters } from "vuex";
+import text from "@/assets/language";
+
 export default {
   name: "roadmapComponent",
+  data: () => ({
+    years: [
+      { color: "cyan", year: "1960" },
+      { color: "green", year: "1970" },
+      {
+        color: "pink",
+        year: "1980",
+      },
+      { color: "amber", year: "1990" },
+      { color: "orange", year: "2000" },
+    ],
+  }),
+  computed: {
+    ...mapGetters({ storedLanguage: "getSelectedLanguage" }),
+    text: function () {
+      return text;
+    },
+  },
 };
 </script>
 
